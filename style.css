@@ -1,50 +1,53 @@
-.baslik
-{
-	color:green;
-	font-family:arial;
-	font-size:30px;
-	text-align:center;
-	font-weight:bold;
-}
-h1{
+	.baslik
+	{
+		color:green;
+		font-family:arial;
+		font-size:30px;
+		text-align:center;
+		font-weight:bold;
+	}
+	h1{
+		
+		color: coral;
+
+
+	}
+	.div1{
+		
+		background-color: rgb(14, 185, 102);
+	width: 1366px;
+	height: 130px;	
+	border-width:1px ;
+	border-left-width:5px;
+	border-right-width: 5px;
+	border-top-width: 10px;;
+	border-bottom-width: 10px;
+	border-color: rgb(8, 8, 8);
+	border-style: inset;
+	}
+	.li{
+	background-color: white;
 	
-    color: coral;
+	}
+	.li:hover{
+		background-color: rgb(13, 110, 221);
+	}
+	body{
+		background-size: cover;
+		background-repeat:no-repeat;
 
+	}
+	.navbar{
+		height: 8vh;
+		width: 100%;
+		background-color: rgb(46, 197, 26);
+		color: white;
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+		justify-content: space-around;
 
-}
-.div1{
-    
-	background-color: rgb(14, 185, 102);
-   width: 1366px;
-   height: 130px;	
-   border-width:1px ;
-   border-left-width:5px;
-   border-right-width: 5px;
-   border-top-width: 10px;;
-   border-bottom-width: 10px;
-   border-color: rgb(8, 8, 8);
-   border-style: inset;
-}
-.li{
-   background-color: white;
-   
-}
-.li:hover{
-	background-color: rgb(233, 21, 14);
-}
-body{
-	background-size: cover;
-	background-repeat:no-repeat;
-
-}
-.navbar{
-	height: 8vh;
-	width: 100%;
-	background-color: rgb(46, 197, 26);
-	color: white;
-	display: flex;
-	align-items: center;
-	flex-direction: row;
-	justify-content: space-around;
-
-}
+	}
+	.ma{
+		color: blue;
+	}
