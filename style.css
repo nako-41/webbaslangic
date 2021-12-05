@@ -38,9 +38,9 @@
 
 	}
 	.navbar{
-		height: 8vh;
+		height: 20vh;
 		width: 100%;
-		background-color: rgb(46, 197, 26);
+		background-color: rgb(221, 230, 220);
 		color: white;
 		display: flex;
 		align-items: center;
@@ -51,3 +51,13 @@
 	.ma{
 		color: blue;
 	}
+@keyframes animasyon {
+	from { background-color: rgb(21, 193, 245);       }
+	to { background-color:  rgb(32, 21, 240);     }
+	
+}
+.kutu1 {
+	animation-name: animasyon;
+	animation-duration: 20s;
+
+}

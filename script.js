@@ -1,12 +1,10 @@
 // alert("merhaba dünya")
 // console.log("merhaba dünya")
 
-var person = {
-   name="okan",
-   age=24
+const car = {type:"Fiat", model:"500", color:"white"};
 
-}
-console.log(person.age);
-console.log(typeof person);
 
-alert(person);
+console.log(car);
+
+
+
