@@ -53,11 +53,17 @@
 	}
 @keyframes animasyon {
 	from { background-color: rgb(21, 193, 245);       }
-	to { background-color:  rgb(32, 21, 240);     }
+	to { background-color:  rgb(240, 21, 21);     }
 	
 }
 .kutu1 {
 	animation-name: animasyon;
-	animation-duration: 20s;
+	animation-duration: 10s;
+
+}
+.kutu1:hover {
+	animation-name: animasyon;
+	animation-duration: 10s;
+	
 
 }
